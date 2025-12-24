@@ -1,29 +1,81 @@
-# 💸 Personal Budget App
+# Personal Budget App
 
-Personal Budget App, kullanıcıların gelir ve giderlerini takip ederek kişisel finanslarını yönetmelerini sağlayan modern bir web uygulamasıdır. Kullanıcı dostu tasarımı ve hızlı performansıyla kişisel bütçeyi kontrol altına almanıza yardımcı olur.
+## 🧠 Overview
+Personal Budget App, bireylerin gelir–giderlerini takip edememesi ve ay sonunda parasının nereye gittiğini net görememesi problemine çözüm olarak geliştirilmiş bir kişisel finans uygulamasıdır.
 
-## 🚀 Özellikler
+Bu proje, yalnızca harcama kaydı tutmayı değil; kullanıcıya **finansal farkındalık kazandırmayı** hedefler.
 
-- ➕ Gelir ve gider ekleme
-- 📊 Kategorilere göre bütçe analizi
-- 📈 Aylık harcama grafikleri
-- 🗂️ Harcamaları kategori bazında filtreleme
-- 🎨 Responsive (mobil uyumlu) tasarım
+---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🎯 Problem Statement
+Birçok kullanıcı:
+- Günlük harcamalarını düzensiz şekilde takip eder
+- Kategorilere göre ne kadar harcadığını göremez
+- Ay sonunda bütçe kontrolünü kaybeder
 
-- React
-- Context API (veya Redux varsa)
-- LocalStorage / Backend API (hangisi kullanıldıysa)
-- CSS / Tailwind / SCSS (hangisi tercih edildiyse)
-- Chart.js (grafikler için)
+Excel veya manuel notlar sürdürülebilir değildir ve kullanıcıyı üründen koparır.
+
+---
+
+## 💡 Solution Approach
+Bu projede kullanıcıyı yormayan, sade bir arayüz ile:
+
+- Gelir ve giderlerin hızlıca eklenmesi
+- Harcamaların kategori bazlı gruplanması
+- Toplam bütçe durumunun anlık olarak görüntülenmesi
+
+amaçlandı.
+
+Öncelik **MVP (Minimum Viable Product)** mantığıyla temel ihtiyacı karşılamak oldu.
+
+---
+
+## 🔁 User Flow
+1. Kullanıcı gelir veya gider ekler  
+2. İşlem bir kategori ile ilişkilendirilir  
+3. Uygulama toplam bakiye ve kategori bazlı dağılımı günceller  
+4. Kullanıcı harcama alışkanlıklarını gözlemleyebilir  
+
+Bu akış, kullanıcıyı karmaşık raporlar yerine **net içgörülere** yönlendirir.
+
+---
+
+## 🛠️ Tech Stack
+- Frontend: React / TypeScript
+- State Management: (kullandıysan belirt)
+- Styling: (CSS / Styled Components vs.)
+- Data Handling: (local state / localStorage vs.)
+
+---
+
+## ⚖️ Key Decisions & Trade-offs
+- **Backend yerine frontend tabanlı yapı** tercih edildi  
+  → MVP süresini kısaltmak ve ürünü hızlı test edebilmek için
+
+- **Karmaşık grafikler eklenmedi**  
+  → Kullanıcıyı yormamak ve temel problemi çözmeye odaklanmak için
+
+Bu proje bir “feature showcase” değil, **problem çözme odaklı** geliştirildi.
+
+---
+
+## 🚀 Possible Improvements
+Uygulama gerçek bir ürün olarak büyütülmek istenirse:
+
+- Kullanıcı bazlı authentication
+- Backend + database entegrasyonu
+- Aylık / yıllık harcama analizleri
+- Harcama limiti uyarıları
+- Grafik ve raporlama modülü
+
+---
+
+## 📌 Why This Project Matters
+Bu proje, sadece teknik bir uygulama değil;
+- **iş problemini tanımlama**
+- **kullanıcı ihtiyacını anlama**
+- **doğru çözümü sade şekilde sunma**
+
+yetkinliklerini göstermek amacıyla geliştirilmiştir.
 
 
-
-## ⚙️ Kurulum
-
-```bash
-git clone https://github.com/mykarli/Personal-budget-app.git
-cd Personal-budget-app
-npm install
-npm start
