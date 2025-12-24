@@ -1,81 +1,86 @@
-# Personal Budget App
+# 💰 Personal Budget App
 
-## 🧠 Overview
-Personal Budget App, bireylerin gelir–giderlerini takip edememesi ve ay sonunda parasının nereye gittiğini net görememesi problemine çözüm olarak geliştirilmiş bir kişisel finans uygulamasıdır.
+## Overview
+Personal Budget App is a personal finance application designed to solve a common problem:  
+individuals struggle to track their income and expenses and often cannot clearly understand where their money goes by the end of the month.
 
-Bu proje, yalnızca harcama kaydı tutmayı değil; kullanıcıya **finansal farkındalık kazandırmayı** hedefler.
-
----
-
-## 🎯 Problem Statement
-Birçok kullanıcı:
-- Günlük harcamalarını düzensiz şekilde takip eder
-- Kategorilere göre ne kadar harcadığını göremez
-- Ay sonunda bütçe kontrolünü kaybeder
-
-Excel veya manuel notlar sürdürülebilir değildir ve kullanıcıyı üründen koparır.
+The goal of this project is not only expense tracking, but also helping users build **financial awareness** through simple and meaningful insights.
 
 ---
 
-## 💡 Solution Approach
-Bu projede kullanıcıyı yormayan, sade bir arayüz ile:
+## Problem Statement
+Many users:
+- Track expenses inconsistently
+- Cannot analyze spending by category
+- Lose control of their budget at the end of the month
 
-- Gelir ve giderlerin hızlıca eklenmesi
-- Harcamaların kategori bazlı gruplanması
-- Toplam bütçe durumunun anlık olarak görüntülenmesi
-
-amaçlandı.
-
-Öncelik **MVP (Minimum Viable Product)** mantığıyla temel ihtiyacı karşılamak oldu.
+Manual tools such as Excel sheets or notes are not sustainable and often lead users to abandon tracking entirely.
 
 ---
 
-## 🔁 User Flow
-1. Kullanıcı gelir veya gider ekler  
-2. İşlem bir kategori ile ilişkilendirilir  
-3. Uygulama toplam bakiye ve kategori bazlı dağılımı günceller  
-4. Kullanıcı harcama alışkanlıklarını gözlemleyebilir  
+## Solution Approach
+This project focuses on a **clean and frictionless user experience** by providing:
 
-Bu akış, kullanıcıyı karmaşık raporlar yerine **net içgörülere** yönlendirir.
+- Quick income and expense input
+- Category-based expense grouping
+- Real-time visibility of overall budget status
 
----
-
-## 🛠️ Tech Stack
-- Frontend: React / TypeScript
-- State Management: (kullandıysan belirt)
-- Styling: (CSS / Styled Components vs.)
-- Data Handling: (local state / localStorage vs.)
+The project was intentionally built using an **MVP (Minimum Viable Product)** mindset to validate the core problem before adding complexity.
 
 ---
 
-## ⚖️ Key Decisions & Trade-offs
-- **Backend yerine frontend tabanlı yapı** tercih edildi  
-  → MVP süresini kısaltmak ve ürünü hızlı test edebilmek için
+## User Flow
+1. User adds an income or expense  
+2. Each transaction is assigned to a category  
+3. The application updates total balance and category distribution  
+4. The user gains clear visibility into spending habits  
 
-- **Karmaşık grafikler eklenmedi**  
-  → Kullanıcıyı yormamak ve temel problemi çözmeye odaklanmak için
-
-Bu proje bir “feature showcase” değil, **problem çözme odaklı** geliştirildi.
-
----
-
-## 🚀 Possible Improvements
-Uygulama gerçek bir ürün olarak büyütülmek istenirse:
-
-- Kullanıcı bazlı authentication
-- Backend + database entegrasyonu
-- Aylık / yıllık harcama analizleri
-- Harcama limiti uyarıları
-- Grafik ve raporlama modülü
+This flow prioritizes **clarity over complexity**, avoiding overwhelming reports and focusing on actionable insights.
 
 ---
 
-## 📌 Why This Project Matters
-Bu proje, sadece teknik bir uygulama değil;
-- **iş problemini tanımlama**
-- **kullanıcı ihtiyacını anlama**
-- **doğru çözümü sade şekilde sunma**
+## Tech Stack
+- Frontend: React / TypeScript  
+- State Management: Local state  
+- Styling: CSS  
+- Data Handling: LocalStorage  
 
-yetkinliklerini göstermek amacıyla geliştirilmiştir.
+---
+
+## Key Decisions & Trade-offs
+- **Frontend-first architecture was chosen**  
+  → To shorten development time and validate the product idea quickly.
+
+- **Advanced charts and reports were intentionally excluded**  
+  → To keep the experience simple and focused on the core budgeting problem.
+
+This project was built as a **problem-solving product**, not a feature showcase.
+
+---
+
+## Product & Business Perspective
+- Helps users understand spending behavior and regain budget control.
+- Encourages financial discipline through visibility rather than complexity.
+- Can be positioned as a lightweight personal finance tool for everyday use.
+- Provides a strong foundation for a scalable personal finance product.
+
+---
+
+## Engineering Mindset
+This project demonstrates the ability to:
+- Identify real user problems
+- Translate business needs into a technical solution
+- Make conscious trade-offs between speed, usability, and scalability
+
+---
+
+## Possible Improvements
+If developed as a production-ready product:
+- User authentication
+- Backend and database integration
+- Monthly and yearly expense analytics
+- Spending limit alerts
+- Visual reports and dashboards
+
 
 
